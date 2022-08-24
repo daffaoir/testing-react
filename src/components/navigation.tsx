@@ -6,6 +6,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { useNavigate } from "react-router-dom";
+import PetsIcon from '@mui/icons-material/Pets';
 
 interface NavItemsProps {
     label: string;
@@ -27,7 +28,7 @@ export default function NavigationComponent() {
 
     const navigate = useNavigate();
     return (
-        <AppBar component="nav">
+        <AppBar component="nav" color="secondary">
             <Toolbar>
                 <IconButton
                     color="inherit"
@@ -42,7 +43,7 @@ export default function NavigationComponent() {
                     component="div"
                     sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                 >
-                    Rinyo
+                    <PetsIcon />
                 </Typography>
                 <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                     {navItems.map((item, index) => (
