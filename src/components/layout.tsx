@@ -6,7 +6,7 @@ import { PropsWithChildren } from "react";
 export default function LayoutComponent({ children }: PropsWithChildren) {
 
     return (
-        <Box sx={{ display: 'flex' }}>
+        <Box>
             <NavigationComponent />
             <Box component="main" sx={{ p: 3, overflowX: "auto" }}>
                 <Toolbar />
