@@ -22,6 +22,12 @@ const navItems: NavItemsProps[] = [{
 }, {
     label: "Movies",
     url: "/movies"
+}, {
+    label: "Latihan",
+    url: "/latihan"
+}, {
+    label: "Login",
+    url: "/login"
 }]
 
 export default function NavigationComponent() {
