@@ -6,15 +6,7 @@ import Grid from "@mui/material/Grid";
 import { Typography } from "@mui/material";
 import CardLatihan from "../components/cardLatihan";
 
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-}));
-
-export default function () {
+export default function Latihan() {
     return (
         <>
             <Typography variant="h3" textAlign="center">
@@ -25,7 +17,7 @@ export default function () {
                     <Grid item xs={3}>
                         <CardLatihan />
                     </Grid>
-                    <Grid item xs={3}>
+                    {/* <Grid item xs={3}>
                         <CardLatihan />
                     </Grid>
                     <Grid item xs={3}>
@@ -33,7 +25,7 @@ export default function () {
                     </Grid>
                     <Grid item xs={3}>
                         <CardLatihan />
-                    </Grid>
+                    </Grid> */}
                 </Grid>
             </Box>
         </>

@@ -20,9 +20,6 @@ const navItems: NavItemsProps[] = [{
     label: "Profile",
     url: "/profile"
 }, {
-    label: "Movies",
-    url: "/movies"
-}, {
     label: "Latihan",
     url: "/latihan"
 }, {
