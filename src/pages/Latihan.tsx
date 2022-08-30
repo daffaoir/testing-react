@@ -1,7 +1,4 @@
-import * as React from "react";
-import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import { Typography } from "@mui/material";
 import CardLatihan from "../components/cardLatihan";
@@ -14,18 +11,15 @@ export default function Latihan() {
             </Typography>
             <Box sx={{ flexGrow: 1 }}>
                 <Grid container spacing={2} mt={2}>
-                    <Grid item xs={3}>
-                        <CardLatihan />
+                    <Grid item md={4}>
+                        <CardLatihan title="Movies" desc="Using OMDB API to search Movies" url="/movies" img="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-movies-1614634680.jpg" />
                     </Grid>
-                    {/* <Grid item xs={3}>
-                        <CardLatihan />
+                    <Grid item md={4}>
+                        <CardLatihan title="Latihan 2" desc="Buat Latihan 2" url="/latihan-2" />
                     </Grid>
-                    <Grid item xs={3}>
-                        <CardLatihan />
+                    <Grid item md={4}>
+                        <CardLatihan title="Latihan 3" desc="Buat Latihan 3" url="/movies" />
                     </Grid>
-                    <Grid item xs={3}>
-                        <CardLatihan />
-                    </Grid> */}
                 </Grid>
             </Box>
         </>

@@ -100,7 +100,7 @@ export default function Movies() {
                 </Box>
             )}
 
-            {isError && film.length == 0 && <h1>Something Went Wrong</h1>}
+            {isError && film.length === 0 && <h1>Something Went Wrong</h1>}
 
             {film.map(({ Title, Year, imdbID, Type, Poster }) => {
                 return (

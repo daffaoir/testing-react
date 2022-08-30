@@ -7,6 +7,7 @@ import Movies from "./pages/Movies";
 import NotFound from "./pages/NotFound";
 import Profile from "./pages/Profile";
 import Latihan from "./pages/Latihan";
+import Latihan2 from "./latihan2";
 
 export default function App() {
   return (
@@ -16,8 +17,9 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="profile" element={<Profile />} />
           <Route path="latihan" element={<Latihan />} />
-          <Route path="movies" element={<Movies />} />
           <Route path="login" element={<Login />} />
+          <Route path="movies" element={<Movies />} />
+          <Route path="latihan-2" element={<Latihan2 />} />
           <Route path="*" element={<NotFound />} />
           
         </Routes>
