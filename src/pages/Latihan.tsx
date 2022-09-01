@@ -18,7 +18,7 @@ export default function Latihan() {
                         <CardLatihan title="Latihan 2" desc="Buat Latihan 2" url="/latihan-2" />
                     </Grid>
                     <Grid item md={4}>
-                        <CardLatihan title="Latihan 3" desc="Buat Latihan 3" url="/movies" />
+                        <CardLatihan title="Kalkulator" desc="" url="/kalkulator" />
                     </Grid>
                 </Grid>
             </Box>

@@ -29,7 +29,6 @@ const SearchIconWrapper = styled("div")(({ theme }) => ({
     justifyContent: "center",
 }));
 
-
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
     color: "inherit",
     "& .MuiInputBase-input": {
@@ -115,7 +114,7 @@ export default function Movies() {
                                     {Type}
                                 </Typography>
                             </CardContent>
-							<ModalFilm />
+                            <ModalFilm film={{ Title, Year, imdbID, Type, Poster }} />
                         </Card>
                     </Grid>
                 );

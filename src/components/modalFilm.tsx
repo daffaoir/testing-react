@@ -19,46 +19,43 @@ const style = {
     p: 4,
 };
 
-
-export default function ModalFilm() {
+export default function ModalFilm(props: any) {
     const [open, setOpen] = useState(false);
 
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
-
     return (
         <CardActions sx={{ justifyContent: "center" }}>
-                                <Button onClick={handleOpen} variant="contained" color="secondary">
-                                    Details
-                                </Button>
-                                <Modal
-                                    aria-labelledby="transition-modal-title"
-                                    aria-describedby="transition-modal-description"
-                                    open={open}
-                                    onClose={handleClose}
-                                    closeAfterTransition
-                                    BackdropComponent={Backdrop}
-                                    BackdropProps={{
-                                        timeout: 500,
-                                    }}
-                                >
-                                    <Fade in={open}>
-                                        <Box sx={style}>
-                                            <Grid container spacing={2}>
-                                                <Grid item xs={4}>
-                                                    <CardMedia component="img" alt="Movies" image="#" />
-                                                </Grid>
-                                                <Grid item xs={8}>
-                                                    <ul>
-                                                        <li>dasha</li>
-                                                        <li>asdasd</li>
-                                                    </ul>
-                                                </Grid>
-                                            </Grid>
-                                        </Box>
-                                    </Fade>
-                                </Modal>
-                            </CardActions>
+            <Button onClick={handleOpen} variant="contained" color="secondary">
+                Details
+            </Button>
+            <Modal
+                aria-labelledby="transition-modal-title"
+                aria-describedby="transition-modal-description"
+                open={open}
+                onClose={handleClose}
+                closeAfterTransition
+                BackdropComponent={Backdrop}
+                BackdropProps={{
+                    timeout: 500,
+                }}
+            >
+                <Fade in={open}>
+                    <Box sx={style}>
+                        <Grid container spacing={2}>
+                            <Grid item xs={4}>
+                                <CardMedia component="img" alt="Movies" image={props.film.Poster} />
+                            </Grid>
+                            <Grid item xs={8}>
+                                <ul>
+                                    <li>asdasd</li>
+                                </ul>
+                            </Grid>
+                        </Grid>
+                    </Box>
+                </Fade>
+            </Modal>
+        </CardActions>
     );
 }
