@@ -1,0 +1,765 @@
+[
+    {
+        "name": "backspace",
+        "keyCode": 8,
+        "keyName": "Backspace",
+        "code": "Backspace",
+        "notes": ""
+    },
+    {
+        "name": "tab",
+        "keyCode": 9,
+        "keyName": "Tab",
+        "code": "Tab",
+        "notes": ""
+    },
+    {
+        "name": "enter",
+        "keyCode": 13,
+        "keyName": "Enter",
+        "code": "Enter",
+        "notes": ""
+    },
+    {
+        "name": "shift(left)",
+        "keyCode": 16,
+        "keyName": "Shift",
+        "code": "ShiftLeft",
+        "notes": "event.shiftKey is true"
+    },
+    {
+        "name": "shift(right)",
+        "keyCode": 16,
+        "keyName": "Shift",
+        "code": "ShiftRight",
+        "notes": "event.shiftKey is true"
+    },
+    {
+        "name": "ctrl(left)",
+        "keyCode": 17,
+        "keyName": "Control",
+        "code": "ControlLeft",
+        "notes": "event.ctrlKey is true"
+    },
+    {
+        "name": "ctrl(right)",
+        "keyCode": 17,
+        "keyName": "Control",
+        "code": "ControlRight",
+        "notes": "event.ctrlKey is true"
+    },
+    {
+        "name": "alt(left)",
+        "keyCode": 18,
+        "keyName": "Alt",
+        "code": "AltLeft",
+        "notes": "event.altKey is true"
+    },
+    {
+        "name": "alt(right)",
+        "keyCode": 18,
+        "keyName": "Alt",
+        "code": "AltRight",
+        "notes": "event.altKey is true"
+    },
+    {
+        "name": "pause/break",
+        "keyCode": 19,
+        "keyName": "Pause",
+        "code": "Pause",
+        "notes": ""
+    },
+    {
+        "name": "caps lock",
+        "keyCode": 20,
+        "keyName": "CapsLock",
+        "code": "CapsLock",
+        "notes": ""
+    },
+    {
+        "name": "escape",
+        "keyCode": 27,
+        "keyName": "Escape",
+        "code": "Escape",
+        "notes": ""
+    },
+    {
+        "name": "space",
+        "keyCode": 32,
+        "keyName": "",
+        "code": "Space",
+        "notes": "The keyName value is a single space."
+    },
+    {
+        "name": "page up",
+        "keyCode": 33,
+        "keyName": "PageUp",
+        "code": "PageUp",
+        "notes": ""
+    },
+    {
+        "name": "page down",
+        "keyCode": 34,
+        "keyName": "PageDown",
+        "code": "PageDown",
+        "notes": ""
+    },
+    {
+        "name": "end",
+        "keyCode": 35,
+        "keyName": "End",
+        "code": "End",
+        "notes": ""
+    },
+    {
+        "name": "home",
+        "keyCode": 36,
+        "keyName": "Home",
+        "code": "Home",
+        "notes": ""
+    },
+    {
+        "name": "left arrow",
+        "keyCode": 37,
+        "keyName": "ArrowLeft",
+        "code": "ArrowLeft",
+        "notes": ""
+    },
+    {
+        "name": "up arrow",
+        "keyCode": 38,
+        "keyName": "ArrowUp",
+        "code": "ArrowUp",
+        "notes": ""
+    },
+    {
+        "name": "right arrow",
+        "keyCode": 39,
+        "keyName": "ArrowRight",
+        "code": "ArrowRight",
+        "notes": ""
+    },
+    {
+        "name": "down arrow",
+        "keyCode": 40,
+        "keyName": "ArrowDown",
+        "code": "ArrowDown",
+        "notes": ""
+    },
+    {
+        "name": "print screen",
+        "keyCode": 44,
+        "keyName": "PrintScreen",
+        "code": "PrintScreen",
+        "notes": ""
+    },
+    {
+        "name": "insert",
+        "keyCode": 45,
+        "keyName": "Insert",
+        "code": "Insert",
+        "notes": ""
+    },
+    {
+        "name": "delete",
+        "keyCode": 46,
+        "keyName": "Delete",
+        "code": "Delete",
+        "notes": ""
+    },
+    {
+        "name": "0",
+        "keyCode": 48,
+        "keyName": "0",
+        "code": "Digit0",
+        "notes": ""
+    },
+    {
+        "name": "1",
+        "keyCode": 49,
+        "keyName": "1",
+        "code": "Digit1",
+        "notes": ""
+    },
+    {
+        "name": "2",
+        "keyCode": 50,
+        "keyName": "2",
+        "code": "Digit2",
+        "notes": ""
+    },
+    {
+        "name": "3",
+        "keyCode": 51,
+        "keyName": "3",
+        "code": "Digit3",
+        "notes": ""
+    },
+    {
+        "name": "4",
+        "keyCode": 52,
+        "keyName": "4",
+        "code": "Digit4",
+        "notes": ""
+    },
+    {
+        "name": "5",
+        "keyCode": 53,
+        "keyName": "5",
+        "code": "Digit5",
+        "notes": ""
+    },
+    {
+        "name": "6",
+        "keyCode": 54,
+        "keyName": "6",
+        "code": "Digit6",
+        "notes": ""
+    },
+    {
+        "name": "7",
+        "keyCode": 55,
+        "keyName": "7",
+        "code": "Digit7",
+        "notes": ""
+    },
+    {
+        "name": "8",
+        "keyCode": 56,
+        "keyName": "8",
+        "code": "Digit8",
+        "notes": ""
+    },
+    {
+        "name": "9",
+        "keyCode": 57,
+        "keyName": "9",
+        "code": "Digit9",
+        "notes": ""
+    },
+    {
+        "name": "a",
+        "keyCode": 65,
+        "keyName": "a",
+        "code": "KeyA",
+        "notes": ""
+    },
+    {
+        "name": "b",
+        "keyCode": 66,
+        "keyName": "b",
+        "code": "KeyB",
+        "notes": ""
+    },
+    {
+        "name": "c",
+        "keyCode": 67,
+        "keyName": "c",
+        "code": "KeyC",
+        "notes": ""
+    },
+    {
+        "name": "d",
+        "keyCode": 68,
+        "keyName": "d",
+        "code": "KeyD",
+        "notes": ""
+    },
+    {
+        "name": "e",
+        "keyCode": 69,
+        "keyName": "e",
+        "code": "KeyE",
+        "notes": ""
+    },
+    {
+        "name": "f",
+        "keyCode": 70,
+        "keyName": "f",
+        "code": "KeyF",
+        "notes": ""
+    },
+    {
+        "name": "g",
+        "keyCode": 71,
+        "keyName": "g",
+        "code": "KeyG",
+        "notes": ""
+    },
+    {
+        "name": "h",
+        "keyCode": 72,
+        "keyName": "h",
+        "code": "KeyH",
+        "notes": ""
+    },
+    {
+        "name": "i",
+        "keyCode": 73,
+        "keyName": "i",
+        "code": "KeyI",
+        "notes": ""
+    },
+    {
+        "name": "j",
+        "keyCode": 74,
+        "keyName": "j",
+        "code": "KeyJ",
+        "notes": ""
+    },
+    {
+        "name": "k",
+        "keyCode": 75,
+        "keyName": "k",
+        "code": "KeyK",
+        "notes": ""
+    },
+    {
+        "name": "l",
+        "keyCode": 76,
+        "keyName": "l",
+        "code": "KeyL",
+        "notes": ""
+    },
+    {
+        "name": "m",
+        "keyCode": 77,
+        "keyName": "m",
+        "code": "KeyM",
+        "notes": ""
+    },
+    {
+        "name": "n",
+        "keyCode": 78,
+        "keyName": "n",
+        "code": "KeyN",
+        "notes": ""
+    },
+    {
+        "name": "o",
+        "keyCode": 79,
+        "keyName": "o",
+        "code": "KeyO",
+        "notes": ""
+    },
+    {
+        "name": "p",
+        "keyCode": 80,
+        "keyName": "p",
+        "code": "KeyP",
+        "notes": ""
+    },
+    {
+        "name": "q",
+        "keyCode": 81,
+        "keyName": "q",
+        "code": "KeyQ",
+        "notes": ""
+    },
+    {
+        "name": "r",
+        "keyCode": 82,
+        "keyName": "r",
+        "code": "KeyR",
+        "notes": ""
+    },
+    {
+        "name": "s",
+        "keyCode": 83,
+        "keyName": "s",
+        "code": "KeyS",
+        "notes": ""
+    },
+    {
+        "name": "t",
+        "keyCode": 84,
+        "keyName": "t",
+        "code": "KeyT",
+        "notes": ""
+    },
+    {
+        "name": "u",
+        "keyCode": 85,
+        "keyName": "u",
+        "code": "KeyU",
+        "notes": ""
+    },
+    {
+        "name": "v",
+        "keyCode": 86,
+        "keyName": "v",
+        "code": "KeyV",
+        "notes": ""
+    },
+    {
+        "name": "w",
+        "keyCode": 87,
+        "keyName": "w",
+        "code": "KeyW",
+        "notes": ""
+    },
+    {
+        "name": "x",
+        "keyCode": 88,
+        "keyName": "x",
+        "code": "KeyX",
+        "notes": ""
+    },
+    {
+        "name": "y",
+        "keyCode": 89,
+        "keyName": "y",
+        "code": "KeyY",
+        "notes": ""
+    },
+    {
+        "name": "z",
+        "keyCode": 90,
+        "keyName": "z",
+        "code": "KeyZ",
+        "notes": ""
+    },
+    {
+        "name": "left window key",
+        "keyCode": 91,
+        "keyName": "Meta",
+        "code": "MetaLeft",
+        "notes": "event.metaKey is true"
+    },
+    {
+        "name": "right window key",
+        "keyCode": 92,
+        "keyName": "Meta",
+        "code": "MetaRight",
+        "notes": "event.metaKey is true"
+    },
+    {
+        "name": "select key (Context Menu)",
+        "keyCode": 93,
+        "keyName": "ContextMenu",
+        "code": "ContextMenu",
+        "notes": ""
+    },
+    {
+        "name": "numpad 0",
+        "keyCode": 96,
+        "keyName": "0",
+        "code": "Numpad0",
+        "notes": ""
+    },
+    {
+        "name": "numpad 1",
+        "keyCode": 97,
+        "keyName": "1",
+        "code": "Numpad1",
+        "notes": ""
+    },
+    {
+        "name": "numpad 2",
+        "keyCode": 98,
+        "keyName": "2",
+        "code": "Numpad2",
+        "notes": ""
+    },
+    {
+        "name": "numpad 3",
+        "keyCode": 99,
+        "keyName": "3",
+        "code": "Numpad3",
+        "notes": ""
+    },
+    {
+        "name": "numpad 4",
+        "keyCode": 100,
+        "keyName": "4",
+        "code": "Numpad4",
+        "notes": ""
+    },
+    {
+        "name": "numpad 5",
+        "keyCode": 101,
+        "keyName": "5",
+        "code": "Numpad5",
+        "notes": ""
+    },
+    {
+        "name": "numpad 6",
+        "keyCode": 102,
+        "keyName": "6",
+        "code": "Numpad6",
+        "notes": ""
+    },
+    {
+        "name": "numpad 7",
+        "keyCode": 103,
+        "keyName": "7",
+        "code": "Numpad7",
+        "notes": ""
+    },
+    {
+        "name": "numpad 8",
+        "keyCode": 104,
+        "keyName": "8",
+        "code": "Numpad8",
+        "notes": ""
+    },
+    {
+        "name": "numpad 9",
+        "keyCode": 105,
+        "keyName": "9",
+        "code": "Numpad9",
+        "notes": ""
+    },
+    {
+        "name": "multiply",
+        "keyCode": 106,
+        "keyName": "*",
+        "code": "NumpadMultiply",
+        "notes": ""
+    },
+    {
+        "name": "add",
+        "keyCode": 107,
+        "keyName": "+",
+        "code": "NumpadAdd",
+        "notes": ""
+    },
+    {
+        "name": "subtract",
+        "keyCode": 109,
+        "keyName": "-",
+        "code": "NumpadSubtract",
+        "notes": ""
+    },
+    {
+        "name": "decimal point",
+        "keyCode": 110,
+        "keyName": ".",
+        "code": "NumpadDecimal",
+        "notes": ""
+    },
+    {
+        "name": "divide",
+        "keyCode": 111,
+        "keyName": "/",
+        "code": "NumpadDivide",
+        "notes": ""
+    },
+    {
+        "name": "f1",
+        "keyCode": 112,
+        "keyName": "F1",
+        "code": "F1",
+        "notes": ""
+    },
+    {
+        "name": "f2",
+        "keyCode": 113,
+        "keyName": "F2",
+        "code": "F2",
+        "notes": ""
+    },
+    {
+        "name": "f3",
+        "keyCode": 114,
+        "keyName": "F3",
+        "code": "F3",
+        "notes": ""
+    },
+    {
+        "name": "f4",
+        "keyCode": 115,
+        "keyName": "F4",
+        "code": "F4",
+        "notes": ""
+    },
+    {
+        "name": "f5",
+        "keyCode": 116,
+        "keyName": "F5",
+        "code": "F5",
+        "notes": ""
+    },
+    {
+        "name": "f6",
+        "keyCode": 117,
+        "keyName": "F6",
+        "code": "F6",
+        "notes": ""
+    },
+    {
+        "name": "f7",
+        "keyCode": 118,
+        "keyName": "F7",
+        "code": "F7",
+        "notes": ""
+    },
+    {
+        "name": "f8",
+        "keyCode": 119,
+        "keyName": "F8",
+        "code": "F8",
+        "notes": ""
+    },
+    {
+        "name": "f9",
+        "keyCode": 120,
+        "keyName": "F9",
+        "code": "F9",
+        "notes": ""
+    },
+    {
+        "name": "f10",
+        "keyCode": 121,
+        "keyName": "F10",
+        "code": "F10",
+        "notes": ""
+    },
+    {
+        "name": "f11",
+        "keyCode": 122,
+        "keyName": "F11",
+        "code": "F11",
+        "notes": ""
+    },
+    {
+        "name": "f12",
+        "keyCode": 123,
+        "keyName": "F12",
+        "code": "F12",
+        "notes": ""
+    },
+    {
+        "name": "num lock",
+        "keyCode": 144,
+        "keyName": "NumLock",
+        "code": "NumLock",
+        "notes": ""
+    },
+    {
+        "name": "scroll lock",
+        "keyCode": 145,
+        "keyName": "ScrollLock",
+        "code": "ScrollLock",
+        "notes": ""
+    },
+    {
+        "name": "audio volume mute",
+        "keyCode": 173,
+        "keyName": "AudioVolumeMute",
+        "code": "",
+        "notes": "⚠️ The keyCode value is 181 in Firefox. Also FF provides the code value as, VolumeMute"
+    },
+    {
+        "name": "audio volume down",
+        "keyCode": 174,
+        "keyName": "AudioVolumeDown",
+        "code": "",
+        "notes": "⚠️ The keyCode value is 182 in Firefox. Also FF provides the code value as, VolumeDown"
+    },
+    {
+        "name": "audio volume up",
+        "keyCode": 175,
+        "keyName": "AudioVolumeUp",
+        "code": "",
+        "notes": "⚠️ The keyCode value is 183 in Firefox. Also FF provides the code value as, VolumeUp"
+    },
+    {
+        "name": "media player",
+        "keyCode": 181,
+        "keyName": "LaunchMediaPlayer",
+        "code": "",
+        "notes": "⚠️ The ️keyCode value is 0(no value) in Firefox. Also FF provides the code value as, MediaSelect"
+    },
+    {
+        "name": "launch application 1",
+        "keyCode": 182,
+        "keyName": "LaunchApplication1",
+        "code": "",
+        "notes": "⚠️ The ️keyCode value is 0(no value) in Firefox. Also FF provides the code value as, LaunchApp1"
+    },
+    {
+        "name": "launch application 2",
+        "keyCode": 183,
+        "keyName": "LaunchApplication2",
+        "code": "",
+        "notes": "⚠️ The ️keyCode value is 0(no value) in Firefox. Also FF provides the code value as, LaunchApp2"
+    },
+    {
+        "name": "semi-colon",
+        "keyCode": 186,
+        "keyName": ";",
+        "code": "Semicolon",
+        "notes": "⚠️ The keyCode value is 59 in Firefox"
+    },
+    {
+        "name": "equal sign",
+        "keyCode": 187,
+        "keyName": "=",
+        "code": "Equal",
+        "notes": "⚠️ The keyCode value is 61 in Firefox"
+    },
+    {
+        "name": "comma",
+        "keyCode": 188,
+        "keyName": ",",
+        "code": "Comma",
+        "notes": ""
+    },
+    {
+        "name": "dash",
+        "keyCode": 189,
+        "keyName": "-",
+        "code": "Minus",
+        "notes": "⚠️ The keyCode value is 173 in Firefox"
+    },
+    {
+        "name": "period",
+        "keyCode": 190,
+        "keyName": ".",
+        "code": "Period",
+        "notes": ""
+    },
+    {
+        "name": "forward slash",
+        "keyCode": 191,
+        "keyName": "/",
+        "code": "Slash",
+        "notes": ""
+    },
+    {
+        "name": "Backquote/Grave accent",
+        "keyCode": 192,
+        "keyName": "`",
+        "code": "Backquote",
+        "notes": ""
+    },
+    {
+        "name": "open bracket",
+        "keyCode": 219,
+        "keyName": "[",
+        "code": "BracketLeft",
+        "notes": ""
+    },
+    {
+        "name": "back slash",
+        "keyCode": 220,
+        "keyName": "\\",
+        "code": "Backslash",
+        "notes": ""
+    },
+    {
+        "name": "close bracket",
+        "keyCode": 221,
+        "keyName": "]",
+        "code": "BracketRight",
+        "notes": ""
+    },
+    {
+        "name": "single quote",
+        "keyCode": 222,
+        "keyName": "'",
+        "code": "Quote",
+        "notes": ""
+    }
+]
