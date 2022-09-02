@@ -18,7 +18,7 @@ export default function Latihan() {
                         <CardLatihan title="Latihan 2" desc="Buat Latihan 2" url="/latihan-2" />
                     </Grid>
                     <Grid item md={4}>
-                        <CardLatihan title="Kalkulator" desc="" img="https://help.apple.com/assets/6222428998C2CE34C75A5252/6222428B98C2CE34C75A5267/en_US/444e9701b92783985608b59943f635be.png" url="/kalkulator" />
+                        <CardLatihan title="Kalkulator" desc="Make React Calculator" img="https://help.apple.com/assets/6222428998C2CE34C75A5252/6222428B98C2CE34C75A5267/en_US/444e9701b92783985608b59943f635be.png" url="/kalkulator" />
                     </Grid>
                 </Grid>
             </Box>
